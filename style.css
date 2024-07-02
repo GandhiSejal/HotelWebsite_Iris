@@ -1,0 +1,43 @@
+#dashboard{
+    background-image: url(assets/images/bgimg.jpg);
+    background-size:cover ;
+    height: 750px;
+    width: 100%;
+    
+}
+/* body{
+    background-color: black;
+} */
+.row {
+    display: flex;
+   
+    margin: 1px;
+}
+
+.column {
+    flex: 1;
+}
+.row1 {
+    display: flex;
+    
+}
+.column1 {
+    flex: 1;
+    padding: 5px;
+}
+nav:hover{
+    background-color: hotpink;
+}
+eventbg{
+    background-image:url(assets/images/familyResto.jpg);
+    background-size: cover;
+}
+li{
+    display: inline-block;
+            margin: 0 5px;
+}
+.social-icons li,a{
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}

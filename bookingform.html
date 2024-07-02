@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Iris Premiere</title>
+    <link rel="icon" type="icon" href="assets/images/iris logo.jpg" >
+    <link rel="stylesheet" href="style.css">
+    <style>
+        form {
+            
+            margin: 0 auto;
+        }
+
+        label {
+            display: block;
+            margin-bottom: 8px;
+            color: rgb(169, 46, 108)
+        }
+
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            box-sizing: border-box;
+        }
+
+        button {
+            background-color:  rgba(255, 105, 180, 0.723);
+            border: 2px solid rgb(52, 9, 16); 
+            color: rgb(164, 9, 86);
+            padding: 12px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color:#d244f9;
+        }
+    </style>
+
+</head>
+<body>
+
+    <div style="height: 730px; width: 100%; background-color: rgb(252, 174, 218);">
+        
+        <div style="height: 700px; width: 60%;float: left; background-color:rgb(252, 208, 234);margin-left: 20%; margin-top: 15px;" >
+            <div style="height: 100px; width: 40%; margin-left: 300px; margin-top: 10px;float: left; text-align: center;">
+                <h1 style="color: rgb(146, 13, 13);font-size: xx-large;">RESERVATION  </h1>
+                <h2 style="color: rgb(165, 10, 88)">Book your Table Now..!!!</h2>
+            </div>
+            <div style="font-family: Arial, sans-serif; margin-left: 20px;margin-top: 130px;">
+                <form action="action_page.php" style="max-width: 600px;">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required><br>
+
+                    <label for="phone">Your Phone Number:</label>
+                    <input type="tel" id="phone" name="phone" required><br>
+            
+                    <label for="date">Date:</label>
+                    <input type="date" id="event-date" name="event-date" required><br>
+            
+                    <label for="Numberofppl">Number Of People: </label>
+                    <input type="text" name="" id="Numberofppl"><br>
+            
+                    <label for="message">Additional Information or Questions:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea><br><br>
+            
+                    <button type="submit">Submit Inquiry</button>
+            
+    
+                </form>
+
+            </div>
+            
+        </div>
+
+    </div>
+
+    
+    <footer style="background-color: #333; color: white; text-align: center;padding: 10px;bottom: 0; width: 100%;">
+        <p>Contact: info@hotelirispremiere.com | Phone: +91 7350001560</p>
+        <ul class="social-icons" style="list-style: none; padding: 0; color: white;">
+            <li><a href="https://www.facebook.com/pages/Hotel-Iris-Premier/614795418881801" target="_blank"><img src="assets/images/facebook-icon-free-png.webp" alt="facebook" style="height: 40px; width: 40px;"><br> Facebook</a></li>
+            <li><a href="" target="_blank"><img src="https://www.freepnglogos.com/uploads/twitter-logo-png/twitter-logo-in-blue-circle-design-twitter-icon-15.png" alt="TwiiterIcon" style="height: 45px; width: 45px;"><br> Twitter</a></li>
+            <li><a href="https://www.instagram.com/irispremiere/" target="_blank"><img src="assets/images/instagram.webp" alt="instagram" style="height: 40px; width: 40px;"><br> Instagram</a></li>
+        </ul>
+        <p>&copy; 2023 Hotel Iris Premiere. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
